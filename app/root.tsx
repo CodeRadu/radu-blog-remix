@@ -1,6 +1,6 @@
 import { Links, LinksFunction, LiveReload, Outlet } from 'remix'
 import Header from './components/Header'
-import styles from './styles/app.css'
+import styles from '../build/styles/app.css'
 
 export const links: LinksFunction = () => {
   return [{ rel: 'stylesheet', href: styles }]
